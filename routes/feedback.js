@@ -16,7 +16,7 @@ feedback.post('/', (req, res) => {
             email,
             feedbackType,
             feedback,
-            feedback_id: uuidv4()
+            feedback_id: uuidv4(),
         }
 
         readAndAppend(newFeedBack, './db/feedback.json')

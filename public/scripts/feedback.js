@@ -13,10 +13,14 @@ if(feedbackForm) {
         let feedback = document.getElementById('feedbackText').value
         let email = document.getElementById('feedbackUsername').value.trim()
 
+        if(!email) {
+            email = 'anonymous'
+        }
+
         const newFeedback = {
             feedback,
             email,
-            feedbackType: 'Complaint'
+            feedbackType: 'Complaint',
         }
 
         fetch('api/feedback', {
@@ -31,9 +35,13 @@ if(feedbackForm) {
             alert(data.status)
             email = ''
             feedback = ''
+            
         })
-    })
-    .catch((error) => {
-        console.log('Error:', error)
+        .catch((error) => {
+            console.log('Error:', error)
+        })
+
+        document.getElementById('feedbackText').value = ''
+        document.getElementById('feedbackUsername').value = 'anonymous'
     })
 }
