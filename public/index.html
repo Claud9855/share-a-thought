@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css"/>
+    <script src="./scripts/index.js" async></script>
     <title>Share A Thought</title>
 </head>
 <body>
@@ -17,6 +18,32 @@
             </div>
         </header>
     </section>
-    
+
+    <section class="thought-form">
+        <form class="flex-row justify-center justify-space-between-md align-center" id="thought-form">
+            <div class="col-12">
+                <textarea 
+                name="thoughtText" 
+                id="thoughtText" 
+                placeholder="Share a thought for the world" 
+                value="" 
+                class="form-input w-100"
+                ></textarea>
+            </div>
+            <div class="col-12 col-lg-9">
+                <input 
+                name="thoughtUsername"
+                id="thoughtUsername"
+                placeholder="Add a username to show the world who you are..."
+                value=""
+                class="form-input w-100"
+                />
+            </div>
+            <div class="col-12 col-lg-3">
+                <button class="btn btn-primary btn-block py-3" type="submit">Add Thought</button>
+            </div>
+        </form>
+    </section>
+    <section class="thoughts" id="thought-container"></section>
 </body>
 </html>
