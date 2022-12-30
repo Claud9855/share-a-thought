@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "username": "ADMIN",
+        "thought": "Hello World, I am excited to share this new experience with you all. I am aspiring to be a software engineer and I created this site so everyone can post their thoughts for the world to see. :) ",
+        "thought_id": "bfcb4080-6791-40d7-a12e-8f16560fe0d9"
+    },
+    {
+        "username": "jessica",
+        "thought": "Thank You for creating a wonderful website<33",
+        "thought_id": "db580235-b5e0-487c-bcc6-71d12c62957f"
+    },
+    {
+        "username": "Eddy",
+        "thought": "What is Your next step ADMIN???",
+        "thought_id": "b86f01da-2dcb-46b0-83e5-bd6662486f43"
+    }
+]

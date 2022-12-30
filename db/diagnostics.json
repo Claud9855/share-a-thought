@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "time": 1672370052992,
+        "error_id": "4bd10c04-ad90-4767-a73e-19c3c9f04369",
+        "errors": {
+            "username": "",
+            "thought": "Thought must be at least 15 characters long"
+        }
+    },
+    {
+        "time": 1672370098923,
+        "error_id": "6f03c7f3-61a3-4dcc-9846-dcb68e0e414a",
+        "errors": {
+            "username": "Invalid username!",
+            "thought": "Thought must be at least 15 characters long"
+        }
+    },
+    {
+        "time": 1672370363355,
+        "error_id": "ffe50901-7b4d-4d9e-94be-cfc7080dcfa4",
+        "errors": {
+            "username": "Invalid username!",
+            "thought": "Thought must be at least 15 characters long"
+        }
+    }
+]
