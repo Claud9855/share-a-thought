@@ -22,5 +22,13 @@
             "username": "Invalid username!",
             "thought": "Thought must be at least 15 characters long"
         }
+    },
+    {
+        "time": 1672372222574,
+        "error_id": "17030a07-6e7b-45f7-900a-87c6b3e858e0",
+        "errors": {
+            "username": "Invalid username!",
+            "thought": "Thought must be at least 15 characters long"
+        }
     }
 ]
