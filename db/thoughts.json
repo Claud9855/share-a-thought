@@ -1,37 +1,3 @@
 [
-    {
-        "username": "ADMIN",
-        "thought": "Hello World, I am excited to share this new experience with you all. I am aspiring to be a software engineer and I created this site so everyone can post their thoughts for the world to see. :) ",
-        "thought_id": "bfcb4080-6791-40d7-a12e-8f16560fe0d9"
-    },
-    {
-        "username": "jessica",
-        "thought": "Thank You for creating a wonderful website<33",
-        "thought_id": "db580235-b5e0-487c-bcc6-71d12c62957f"
-    },
-    {
-        "username": "Eddy",
-        "thought": "What is Your next step ADMIN???",
-        "thought_id": "b86f01da-2dcb-46b0-83e5-bd6662486f43"
-    },
-    {
-        "username": "ADMIN",
-        "thought": "I Am going to post the source code in GitHub if anyone wants to see how this site was done. It will be open-source, I created this site more for as a learning tool using node and express js. It's very basic yet powerful and easy to get started, I hope you guys will have fun dissecting my codes :P",
-        "thought_id": "c6d4ec07-4425-4e72-a883-e0d44160eb4d"
-    },
-    {
-        "username": "JavaFanBoi8976",
-        "thought": "Learning can be FUN!!!",
-        "thought_id": "4b38d775-cc56-4595-8c2d-76ae84dac7ba"
-    },
-    {
-        "username": "ELGordo67",
-        "thought": "Come and use ElGordo Taxi's",
-        "thought_id": "0a6e1413-85f2-4f8a-b569-6386d4521f6f"
-    },
-    {
-        "username": "stumpTRoll",
-        "thought": "if 2+2=4, then how does apple = pie?",
-        "thought_id": "39952cb8-d480-4fd3-8700-680001f19d31"
-    }
+    
 ]
